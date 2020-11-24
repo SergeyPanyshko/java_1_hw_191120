@@ -34,7 +34,6 @@ public class Mane {
             if (inputedNumber > randomNumber) {
                 System.out.println("Загадонное число меньше");
             }
-            System.out.println(inputedNumber);
         }
     }
     public static void question() {
