@@ -35,7 +35,9 @@ public class Mane {
                 System.out.println("Загадонное число меньше");
             }
         }
+        System.out.println("Вы проиграли");
     }
+
     public static void question() {
         for (; ; ) {
             System.out.println("Повторить игру еще раз? 1 – да / 0 – нет");
