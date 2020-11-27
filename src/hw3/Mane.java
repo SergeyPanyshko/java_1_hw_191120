@@ -25,19 +25,18 @@ public class Mane {
             System.out.println("Ввидите число");
             int inputedNumber = sc.nextInt();
             if (inputedNumber == randomNumber) {
-                System.out.println("Вы угодали!!!");
+                System.out.println("Вы угадали!!!");
                 return;
             }
             if (inputedNumber < randomNumber) {
-                System.out.println("Загадонное число больше");
+                System.out.println("Загаданное число больше");
             }
-            if (inputedNumber > randomNumber) {
-                System.out.println("Загадонное число меньше");
+            if (inputedNumber > randomNumber){
+                System.out.println("Загаданное число меньше");
             }
         }
         System.out.println("Вы проиграли");
     }
-
     public static void question() {
         for (; ; ) {
             System.out.println("Повторить игру еще раз? 1 – да / 0 – нет");
@@ -51,7 +50,4 @@ public class Mane {
         }
     }
 }
-
-
-
 
